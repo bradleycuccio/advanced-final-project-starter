@@ -9,7 +9,7 @@ class SignUp extends Component {
       username: '',
       password: '',
       confirmPassword: '',
-    }
+    };
   }
 
   handleSubmit(event) {
@@ -25,10 +25,9 @@ class SignUp extends Component {
   handleChange(event) {
     const { name, value } = event.target;
 
-    this.setState(prev => ({
-      ...prev,
+    this.setState({
       [name]: value
-    }));
+    });
   }
 
   render() {

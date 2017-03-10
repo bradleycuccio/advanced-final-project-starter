@@ -27,7 +27,7 @@ class SignUpSignIn extends Component {
           </Tabs>
         </Col>
       </Row>
-    )
+    );
   }
 }
 
